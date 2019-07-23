@@ -1,0 +1,135 @@
+<!-- cheat-sheet.html-->
+<!-- HTML Shell:,html, head, body -->
+
+<!DOCTYPE html> <!-- DOCTYPE is to let the browser know that we are using html -->
+<html> <!-- start of html document -->
+
+<head><!-- start of head section/configuration -->
+	<title>Cheat Sheet</title><!-- title on the browser's tab: goes inside head section -->
+
+<link rel="stylesheet" type="text/css" href="styles/cheat-sheet.css"> <!-- link brings all css styling from my css file inot this html file, href attributre has the name and path of the css file -->
+
+<!-- style tag is to add internal styles-->
+<style type="text/css">
+	div{
+	/* margin properties in pixel*/
+		margin-top: 100px;
+		margin-right: 150px;
+		margin-bottom: 50px;
+		margin-left: 200;
+		background-color: rgb( 150,191,255);
+		border-style: dashed;
+		border-radius: 10px;
+		/*border-radius is to add curve corners to the div */
+		
+</style>
+
+</head> <!-- ending of head section -->
+
+<body><!-- start of body section: visible section of the page-->
+
+	<h1 class="heading">Heading 1</h1> 
+	<!-- h1 tag is using a class style (see css file)-->
+	<h2 class="heading">Heading 2</h2>
+	<h3 class="heading">Heading 3</h3>
+	<h4 class="heading">Heading 4</h4>
+	<h5 class="heading">Heading 5</h5>
+	<h6 class="heading">Heading 6</h6>
+
+<p id="my_paragraph">This is a paragraph because I have no imagination i'll keep typing a lot of words to show this is a paragraph.</p>
+
+<p>This is a paragraph because I have no imagination i'll keep typing a lot of words to show this is a paragraph.</p>
+
+<img src="images"> <!-- img for images: src attribute ot point to the image,alt isth etext to be displayed instead of the image, heaight to adjust the height of the image (pixels), width to adjust the width of the image -->
+
+<ul type="disc">
+<!-- unordered list, bullet type -->
+<li> My candy</li>
+<li> Your Candy</li>
+<li> Our Candy</li>
+ </ul>
+
+ <ul type="Square">
+<!-- unordered list, type square-->
+<li> My candy</li>
+<li> Your Candy</li>
+<li> Our Candy</li>
+ </ul>
+
+<ul type="Circle">
+	<!-- unordered list, type cricle-->
+<li> My candy</li>
+<li> Your Candy</li>
+<li> Our Candy</li>
+ </ul>
+
+ <ol type='1'>
+ 	<!-- unordered list, type 1-->
+ 	<li>First class</li>
+ 	<li>Second Class</li>
+ 	<li>third Class</li>
+ </ol>
+
+ <ol type='A'>
+ 	<!-- unordered list, type A-->
+ 	<li>First class</li>
+ 	<li>Second Class</li>
+ 	<li>third Class</li>
+ </ol>
+
+ <ol type='a'>
+ 	<!-- unordered list, type a-->
+ 	<li>First class</li>
+ 	<li>Second Class</li>
+ 	<li>third Class</li>
+ </ol>
+
+ <ol type='I'>
+ 	<!-- unordered list, type I-->
+ 	<li>First class</li>
+ 	<li>Second Class</li>
+ 	<li>third Class</li>
+ </ol>
+
+<ol type='i'>
+	<!--unordered list, type i-->
+ 	<li>First class</li>
+ 	<li>Second Class</li>
+ 	<li>third Class</li>
+ </ol>
+
+<!-- nested list-->
+<ol type="A">
+	<li>CS class
+		<ol>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JS</li>
+		</ol>
+	</li>
+
+	<li>Math</li>
+</ol>
+
+<!-- a is for anchor (hyperlinks) -->
+<a href="https://www.youtube.com">Youtube</a> <!-- absolute hyperlink-->
+<br><!-- line break-->
+<a href="cheat-sheet.html">My cheat sheet</a> <!-- relative hyperlink-->
+
+<!-- div is to indicate an area within the web page-->
+<div>
+	<p>We can add another paragraph</p>
+		<ol type="A">
+			<li>CS class
+		</ol>
+<ol>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>JS</li>
+</ol>
+			</li> 
+	<li>Math class</li>
+</div>
+
+</body> <!-- ending of body section-->
+</html> <!--end of html document -->

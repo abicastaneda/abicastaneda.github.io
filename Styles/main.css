@@ -1,0 +1,27 @@
+/*main.css*/
+ 
+ body {
+ 	background: lightblue;
+ 	font-family: 'Josefin Sans',
+ 	sans-serif;
+ }
+
+
+h1 {color:rgb(48,65,148);}
+
+ol {font-weight: bold;}
+
+a{ color:rgb(34,15,128); }
+
+#rcorners1 {
+
+  border-radius: 25px;
+
+  border: 2px solid #73AD21;
+
+  padding: 20px; 
+
+  width: 280px;
+
+  height: 20px;
+

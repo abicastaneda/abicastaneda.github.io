@@ -1,0 +1,20 @@
+body {
+background-color: lightgreen;
+}
+
+#stoplight {
+	width: 20%;
+	border:5px solid black;
+}
+
+
+.circle{
+	width: 75px
+	height: 75px;
+	border:solid 2px black;
+	margin: 20px auto;
+}
+
+#red {
+	background-color: 
+}
