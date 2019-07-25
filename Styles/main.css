@@ -23,5 +23,20 @@ a{ color:rgb(34,15,128); }
 
   width: 280px;
 
-  height: 20px;
+  height: 20px;}
 
+#img-float { float: left;
+			margin: 20px
+			width: 300px;}
+
+.p-class {
+	margin: 35px;
+	padding: 25px,
+}
+
+#div-float{
+	overflow: auto;
+	border: 5px black;
+	background: lightcyan;
+	margin: 20px;
+}
